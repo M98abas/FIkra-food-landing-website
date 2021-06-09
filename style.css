@@ -6,8 +6,120 @@
   font-family: "Lato", "Poppins", sans-serif;
 }
 
-.container {
-  width: 1500px;
+.conatiner {
+  width: 1400px;
   margin: auto;
+}
+
+header {
+  -webkit-box-shadow: 2px 1px 2px #888888;
+          box-shadow: 2px 1px 2px #888888;
+}
+
+header .conatiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 75px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .conatiner .logo {
+  font-size: 30px;
+}
+
+header .conatiner .menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .conatiner .menu li {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+header .conatiner .menu li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.firstsetion {
+  margin-top: 90px;
+}
+
+.firstsetion .conatiner h3 {
+  font-size: 26px;
+}
+
+.firstsetion .conatiner .sub-content {
+  padding-top: 30px;
+  padding-bottom: 21px;
+}
+
+.firstsetion .conatiner .sub-content p {
+  line-height: 32px;
+  font-size: 15px;
+}
+
+.firstsetion .conatiner .submit-btn {
+  background-color: #595c69;
+  width: 220px;
+  height: 56px;
+  color: #fff;
+}
+
+.second-sec {
+  margin-top: 130px;
+  padding-bottom: 70px;
+  background-color: rgba(255, 192, 158, 0.2);
+}
+
+.second-sec .conatiner .cards {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(390px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  grid-gap: 3px;
+}
+
+.second-sec .conatiner .cards .card {
+  margin-left: 80px;
+}
+
+.second-sec .conatiner .cards .card .sup-cont {
+  padding: 22px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 100%;
+}
+
+.second-sec .conatiner .cards .card .sup-cont img {
+  margin-top: -60px;
+  width: 330px;
+  height: 500px;
+}
+
+.second-sec .conatiner .cards .card .sup-cont .category {
+  font-size: 12px;
+}
+
+.second-sec .conatiner .cards .card .sup-cont h4 {
+  font-size: 18px;
+}
+
+.second-sec .conatiner .cards .card .sup-cont .display-contnet {
+  font-size: 15px;
+  line-height: 24px;
 }
 /*# sourceMappingURL=style.css.map */

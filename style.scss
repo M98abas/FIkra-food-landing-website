@@ -4,7 +4,92 @@
   box-sizing: border-box;
   font-family: "Lato", "Poppins", sans-serif;
 }
-.container {
-  width: 1500px;
+.conatiner {
+  width: 1400px;
   margin: auto;
+}
+
+header {
+  box-shadow: 2px 1px 2px #888888;
+  .conatiner {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    .logo {
+      font-size: 30px;
+    }
+    .menu {
+      list-style: none;
+      display: flex;
+      li {
+        margin-left: 12px;
+        margin-right: 12px;
+        a {
+          text-decoration: none;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+.firstsetion {
+  margin-top: 90px;
+
+  .conatiner {
+    h3 {
+      font-size: 26px;
+    }
+    .sub-content {
+      padding-top: 30px;
+      padding-bottom: 21px;
+      p {
+        // color: red;
+        line-height: 32px;
+        font-size: 15px;
+      }
+    }
+    .submit-btn {
+      background-color: #595c69;
+      width: 220px;
+      height: 56px;
+      color: #fff;
+    }
+  }
+}
+.second-sec {
+  margin-top: 130px;
+  padding-bottom: 70px;
+  background-color: rgba(255, 192, 158, 0.2);
+  .conatiner {
+    .cards {
+      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+      grid-gap: 3px;
+      .card {
+        margin-left: 80px;
+        .sup-cont {
+          padding: 22px;
+          width: fit-content;
+          img {
+            margin-top: -60px;
+            width: 330px;
+            height: 500px;
+          }
+          width: 100%;
+          .category {
+            font-size: 12px;
+          }
+          h4 {
+            font-size: 18px;
+          }
+          .display-contnet {
+            font-size: 15px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
 }
