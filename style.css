@@ -11,6 +11,12 @@
   margin: auto;
 }
 
+@media only screen and (max-width: 600px) {
+  .conatiner {
+    width: 540px;
+  }
+}
+
 header {
   -webkit-box-shadow: 2px 1px 2px #888888;
           box-shadow: 2px 1px 2px #888888;
@@ -41,6 +47,12 @@ header .conatiner .logo:hover {
   color: #00f;
 }
 
+@media only screen and (max-width: 600px) {
+  header .conatiner .logo {
+    font-size: 17px;
+  }
+}
+
 header .conatiner .menu {
   list-style: none;
   display: -webkit-box;
@@ -60,6 +72,12 @@ header .conatiner .menu li a {
   color: #000;
 }
 
+@media only screen and (max-width: 600px) {
+  header .conatiner .menu li a {
+    font-size: 12px;
+  }
+}
+
 header .conatiner .menu li:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
@@ -76,6 +94,12 @@ header .conatiner .menu li:hover {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 600px) {
+  .firstsetion .conatiner h3 {
+    font-size: 20px;
+  }
+}
+
 .firstsetion .conatiner .sub-content {
   padding-top: 30px;
   padding-bottom: 21px;
@@ -84,6 +108,12 @@ header .conatiner .menu li:hover {
 .firstsetion .conatiner .sub-content p {
   line-height: 32px;
   font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .firstsetion .conatiner .sub-content p {
+    font-size: 13px;
+  }
 }
 
 .firstsetion .conatiner .submit-btn {
@@ -103,10 +133,31 @@ header .conatiner .menu li:hover {
           transform: scale(1.05);
 }
 
+@media only screen and (max-width: 600px) {
+  .firstsetion .conatiner .submit-btn {
+    width: 200px;
+    font-size: 12px;
+    height: 46px;
+  }
+  .firstsetion .conatiner .submit-btn:hover {
+    background-color: gray;
+    font-size: 14px;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
 .second-sec {
   margin-top: 130px;
   padding-bottom: 70px;
   background-color: rgba(255, 192, 158, 0.2);
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .second-sec {
+    text-align: center;
+  }
 }
 
 .second-sec .conatiner .cards {
@@ -124,7 +175,12 @@ header .conatiner .menu li:hover {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .second-sec .conatiner .cards .card {
+    margin-bottom: 10px;
+  }
 }
 
 .second-sec .conatiner .cards .card .category {
@@ -133,10 +189,23 @@ header .conatiner .menu li:hover {
   font-size: 17px;
 }
 
+@media only screen and (max-width: 600px) {
+  .second-sec .conatiner .cards .card .category {
+    font-size: 14px;
+  }
+}
+
 .second-sec .conatiner .cards .card img {
   margin-top: -60px;
   width: 352px;
   height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .second-sec .conatiner .cards .card img {
+    width: 252px;
+    height: 400px;
+  }
 }
 
 .second-sec .conatiner .cards .card h4 {
@@ -144,13 +213,39 @@ header .conatiner .menu li:hover {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 600px) {
+  .second-sec .conatiner .cards .card h4 {
+    font-size: 15px;
+  }
+}
+
 .second-sec .conatiner .cards .card .display-contnet {
   font-size: 15px;
   line-height: 24px;
 }
 
+@media only screen and (max-width: 600px) {
+  .second-sec .conatiner .cards .card .display-contnet {
+    font-size: 13px;
+  }
+}
+
 .therd-sec {
   margin-top: 130px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .therd-sec {
+    margin-top: 100px;
+    text-align: center;
+  }
 }
 
 .therd-sec .conatiner .top-div {
@@ -161,6 +256,12 @@ header .conatiner .menu li:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .therd-sec .conatiner .top-div {
+    font-size: 21px;
+  }
 }
 
 .therd-sec .conatiner .top-div a {
@@ -174,6 +275,12 @@ header .conatiner .menu li:hover {
 .therd-sec .conatiner .top-div a:hover {
   color: blue;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .therd-sec .conatiner .top-div a {
+    font-size: 13px;
+  }
 }
 
 .therd-sec .conatiner .cards {
@@ -232,8 +339,20 @@ header .conatiner .menu li:hover {
   margin-bottom: 31px;
 }
 
+@media only screen and (max-width: 600px) {
+  .four-sec .conatiner .left-cont h3 {
+    font-size: 19px;
+  }
+}
+
 .four-sec .conatiner .left-cont p {
   font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .four-sec .conatiner .left-cont p {
+    font-size: 13px;
+  }
 }
 
 .four-sec .conatiner button {
@@ -255,6 +374,21 @@ header .conatiner .menu li:hover {
           transform: scale(1.2);
 }
 
+@media only screen and (max-width: 600px) {
+  .four-sec .conatiner button:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .four-sec .conatiner button {
+    font-size: 13px;
+    width: 233px;
+    height: 52px;
+  }
+}
+
 .fifth-sec {
   margin-top: 150px;
 }
@@ -269,8 +403,33 @@ header .conatiner .menu li:hover {
   gap: 300px;
 }
 
+@media only screen and (max-width: 600px) {
+  .fifth-sec .conatiner {
+    display: block;
+    text-align: center;
+  }
+}
+
+.fifth-sec .conatiner img {
+  width: 352px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .fifth-sec .conatiner img {
+    width: 332px;
+    height: 450px;
+  }
+}
+
 .fifth-sec .conatiner .content {
   margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .fifth-sec .conatiner .content {
+    margin-top: 40px;
+  }
 }
 
 .fifth-sec .conatiner .content h2 {
@@ -278,14 +437,33 @@ header .conatiner .menu li:hover {
   margin-bottom: 5px;
 }
 
-.fifth-sec .conatiner .content p {
-  line-height: 30px;
+@media only screen and (max-width: 600px) {
+  .fifth-sec .conatiner .content h2 {
+    font-size: 22px;
+  }
 }
 
 .fifth-sec .conatiner .content .sub-title {
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  .fifth-sec .conatiner .content .sub-title {
+    font-size: 10px;
+    margin-bottom: 27px;
+  }
+}
+
+.fifth-sec .conatiner .content p {
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .fifth-sec .conatiner .content p {
+    font-size: 15px;
+  }
 }
 
 .fifth-sec .conatiner .content button {
@@ -307,6 +485,14 @@ header .conatiner .menu li:hover {
           transform: scale(1.2);
 }
 
+@media only screen and (max-width: 600px) {
+  .fifth-sec .conatiner .content button {
+    font-size: 12px;
+    width: 160px;
+    height: 43px;
+  }
+}
+
 footer {
   margin-top: 150px;
   height: 50px;
@@ -325,6 +511,12 @@ footer .conatiner {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 600px) {
+  footer .conatiner p {
+    font-size: 13px;
+  }
+}
+
 footer .conatiner ul {
   list-style: none;
   display: -webkit-box;
@@ -341,5 +533,11 @@ footer .conatiner ul li a {
   font-family: "Montserrat", sans-serif;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  footer .conatiner ul li a {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
