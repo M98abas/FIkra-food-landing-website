@@ -19,7 +19,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="hamburgers.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Simple food app</title>
   </head>
   <body>
@@ -32,6 +33,25 @@
           <li><a href="#">Recipes </a></li>
           <li><a href="#">About </a></li>
         </ul>
+
+        <button
+          class="hamburger hamburger--spin"
+          type="button"
+          id="hamburgerBtn"
+          onclick="handelClick()"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <div class="hamburger-menu" id="menuSHow">
+          <ul>
+            <li><a href="#">Tips </a></li>
+            <li><a href="#">LifeStyle </a></li>
+            <li><a href="#">Recipes </a></li>
+            <li><a href="#">About </a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <section class="firstsetion">
@@ -175,7 +195,7 @@
             nonumy eirmod tempor invidunt ut labore et dolore
           </p>
         </div>
-        <button>Add my email to the list</button>
+        <button class="submit-btn">Add my email to the list</button>
       </div>
     </section>
 
@@ -193,7 +213,7 @@
             ed diam nonumy eirmod tempor invidunt ut labore et dolore magna
             aliquyam erat, sed diam voluptua. At vero eos et accusam
           </p>
-          <button>Learn more</button>
+          <button class="see-more">Learn more</button>
         </div>
       </div>
     </section>
